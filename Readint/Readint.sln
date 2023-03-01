@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readint", "Readint\Readint.csproj", "{628D32D9-8261-426D-8CC3-96FF2B8CE3EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628D32D9-8261-426D-8CC3-96FF2B8CE3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628D32D9-8261-426D-8CC3-96FF2B8CE3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628D32D9-8261-426D-8CC3-96FF2B8CE3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628D32D9-8261-426D-8CC3-96FF2B8CE3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {246CFBD3-4C69-4ED7-9BE0-C4D854C7518B}
+	EndGlobalSection
+EndGlobal
