@@ -4,7 +4,7 @@ namespace Readint
 {
     class Program
     {
-        static int returnNumber()
+        static int GetNumber()
         {
             bool isWork = true;
             string userInput;
@@ -13,19 +13,16 @@ namespace Readint
             while (isWork)
             {
                 Console.WriteLine("Введите число");
+
                 userInput = Console.ReadLine();
 
                 Console.WriteLine();
 
-                bool isReadintResult = int.TryParse(userInput, out number);
+                bool isNumberResult = int.TryParse(userInput, out number);
 
-                if (isReadintResult == true)
+                if (isNumberResult == true)
                 {
                     isWork = false;
-                }
-                else
-                {
-                    continue;
                 }
             }
 
@@ -33,7 +30,7 @@ namespace Readint
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(returnNumber());
+            Console.WriteLine(GetNumber());
         }
     }
 }
