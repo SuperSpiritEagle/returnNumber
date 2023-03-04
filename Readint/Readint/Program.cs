@@ -10,6 +10,7 @@ namespace Readint
             Console.WriteLine(GetNumber());
 
         }
+
         private static int GetNumber()
         {
             string userInput = "";
