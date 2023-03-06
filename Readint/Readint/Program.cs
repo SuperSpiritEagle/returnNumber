@@ -6,9 +6,9 @@ namespace Readint
     {
         static void Main(string[] args)
         {
+            int number = GetNumber();
 
-            Console.WriteLine(GetNumber());
-
+            Console.WriteLine(number);
         }
 
         private static int GetNumber()
